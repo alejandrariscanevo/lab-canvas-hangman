@@ -5,10 +5,12 @@ class HangmanCanvas {
   }
 
   createBoard() {
+    this.context = document.getElementById('hangman').getContext('2d');
     // ... your code goes here
   }
 
   drawLines() {
+    this.context = document.getElementById('hangman').getContext('2d');
     // ... your code goes here
   }
 
